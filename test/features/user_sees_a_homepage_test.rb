@@ -12,4 +12,5 @@ class HomepageTest < CapybaraTestCase
     visit '/blog'
 
     assert_equal 404, page.status_code
+  end
 end
